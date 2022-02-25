@@ -17,11 +17,6 @@ import java.util.Arrays;
  */
 public class UnoOnline extends PasswordValidator
 {
-    //name: Xinwen Li
-    //Student ID Number: 991653923
-    User user1=new User("MyUser","Kate.Windsor@Feb2022");
-    System.out.println(user1.getName());
-    
     private User users[] = new User[100];//room for 100 online players!
     int userCount;//keep track of number of users for array
     /**
@@ -31,6 +26,12 @@ public class UnoOnline extends PasswordValidator
      */
     public static void main(String[] args) 
     {
+        // move position
+        //name: Xinwen Li
+        //Student ID Number: 991653923
+        User user1=new User("myUser","Kate.Windsor@Feb2022");
+        System.out.println(user1.getName());
+        
        UnoOnline newPortal = new UnoOnline();
        Scanner input = new Scanner(System.in);
         
