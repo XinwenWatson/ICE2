@@ -17,6 +17,9 @@ import java.util.Arrays;
  */
 public class UnoOnline extends PasswordValidator
 {
+    //name: Xinwen Li
+    //Student ID Number: 991653923
+    User use1=new User("","");
     private User users[] = new User[100];//room for 100 online players!
     int userCount;//keep track of number of users for array
     /**
